@@ -1,0 +1,36 @@
+{
+  "name": "timesafe",
+  "description": "Simple namespaces and TTL for objects",
+  "version": "0.1.0",
+  "author": "Sebastian Herrlinger <sebastian@kosmokommando.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kommander/timesafe.js.git"
+  },
+  "homepage": "https://github.com/kommander/timesafe.js",
+  "devDependencies": {
+    "mocha": "~1.10.0",
+    "expect.js": "~0.2.0",
+    "should": "*",
+    "sinon": "~1.7.2"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --require should --reporter tap"
+  },
+  "keywords": [
+    "ttl",
+    "object",
+    "cache",
+    "memory",
+    "mem"
+  ],
+  "main": "./lib/timesafe.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies": {
+    "conflate": "~1.0.2",
+    "stashmap": "~1.0.0"
+  }
+}
