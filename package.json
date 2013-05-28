@@ -1,7 +1,7 @@
 {
   "name": "timesafe",
   "description": "Simple namespaces and TTL for objects",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Sebastian Herrlinger <sebastian@kosmokommando.com>",
   "license": "MIT",
   "repository": {
@@ -30,7 +30,7 @@
     "node": ">= 0.8.0"
   },
   "dependencies": {
-    "conflate": "~1.0.2",
-    "stashmap": "~1.0.0"
+    "conflate": "~1.1.0",
+    "stashmap": "~1.1.1"
   }
 }
